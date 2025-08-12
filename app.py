@@ -22,9 +22,7 @@ HEADERS = {
 }
 
 MAX_FAILURE_RATE = 0.5  # stop if 50% fail
-RATES_RPM = [1200]
-#4800]
-#[30, 60, 120, 300, 600, 1200]  # escalating RPM tests
+RATES_RPM = [600, 1200, 2400]  # escalating RPM tests
 DURATION_SEC = 60
 
 # === Tokenizer pour OpenAI ===
